@@ -1,0 +1,8 @@
+<p>Your birthday is on the <%= @dob_day %> of <%= @dob_month %></p>
+<p>Your name is  <%= @name %> </p>
+  <% if days_until_birthday == 0 %>
+    Happy Birthday!
+  <% else %>
+    There are <%= days_until_birthday %> days until your birthday
+  <% end %>
+</p>
